@@ -12,9 +12,9 @@ def assign_rooms(attendees)
   arr = []
    attendees.each_with_index do |attendee, index|
     "Hello, #{attendee}! You'll be assigned to room #{index}!" << arr
-   
-   end
    arr
+   end
+
 end
 
 def printer
