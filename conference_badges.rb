@@ -10,10 +10,9 @@ end
 
 def assign_rooms(attendees)
   speakers = []
-  attendees.collect do |attendee|
-    "Hello, #{attendee}! You'll be assigned to room #{attendee.index}!" << speakers
+  attendees. do |attendee|
+    "Hello, #{attendee}! You'll be assigned to room #{attendee.index}!" 
 end
-  speakers
 end
 
 def printer
