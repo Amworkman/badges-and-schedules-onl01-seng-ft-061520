@@ -20,4 +20,5 @@ def printer(array)
   end
    assign_rooms(attendees).each do |list2|
     puts list2
+  end
 end
