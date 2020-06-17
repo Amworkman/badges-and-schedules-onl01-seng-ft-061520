@@ -2,7 +2,7 @@ def badge_maker(name)
   "Hello, my name is #{name}."
 end
 
-def @batch_badge_creator (attendees)
+def batch_badge_creator (attendees)
   attendees.collect do |attendee|
     "Hello, my name is #{attendee}."
   end
@@ -15,7 +15,7 @@ def assign_rooms(attendees)
 
 end
 
-def printer
+def printer ()
   puts batch_badge_creator
   puts assign_rooms
 end
